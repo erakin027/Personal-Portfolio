@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+#navbar {
+    background: #2D2D2A;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+#navbar ul li {
+    margin: 0 2em;
+}
+
+#navbar ul li a {
+    color: #F8F8F2;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+#navbar ul li a:hover {
+    color: #FFB86C;
+}
+
+body {
+    line-height: 1.6;
+    color: #2D2D2A;
+}
+
+#landing, #projects {
+    padding: 4em 34px 8em;
+    font-size: 1.3em;
+    background: #CCC5B9;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 50%;
+    position:absolute;
+    right: 7em;
+    top: 9em;
+    border: solid 3px #efbe68;
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+p{
+    font-size: 3em;
+}
+
+#about, #contact {
+    padding: 2em 34px 2em;
+    font-size: 1.3em;
+    background: #848586;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #F8F8F2;;
+}
+
+#about ul {
+    font-size: 3em;
+    padding: 0 34px 0;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    background-color: #ecd4aa;
+}
+
+
+.project-card h3 {
+    margin: 0.5em 0;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin-top: 0.5em;
+}
+
+#contactForm input, #contactForm textarea {
+    padding: 0.5em;
+    margin-top: 0.25em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #projects, #about, #contact {
+        padding: 1em;
+    }
+}
