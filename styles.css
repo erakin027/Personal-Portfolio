@@ -145,6 +145,10 @@ h2 {
         padding: 1em;
     }
 
+    #navbar{
+        position: static;    
+    }
+    
     #navbar ul {
         flex-direction: column; /* Changed to column for better stacking */
         align-items: center; /* Centered items */
