@@ -8,6 +8,7 @@
 #navbar {
     background: #2D2D2A;
     padding: 1em;
+    position: static;
     top:0;
 }
 
