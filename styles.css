@@ -138,6 +138,7 @@ h2 {
     background: #555;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     #projects, #about, #contact {
         padding: 1em;
@@ -177,6 +178,4 @@ h2 {
         max-width: 100%; /* Ensure image scales within its container */
     }
 }
-
-
 
