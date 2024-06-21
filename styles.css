@@ -96,6 +96,11 @@ h2 {
     background-color: #ecd4aa;
 }
 
+.project-card img{
+    width: 100%;
+    max-width:fit-content;
+}
+
 .project-card button{
     margin-top: 1em;
     padding: 0.5em;
@@ -116,8 +121,7 @@ h2 {
 }
 
 #contactForm input, #contactForm textarea {
-    padding: 0.5em;
-    margin-top: 0.25em;
+    padding: 0.25em;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -138,6 +142,10 @@ h2 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    #projects, #about, #contact {
+        padding: 1em;
+    }
+
     #navbar ul {
         flex-direction: column; /* Changed to column for better stacking */
         align-items: center; /* Centered items */
@@ -166,6 +174,10 @@ h2 {
     #about ul {
         padding: 0 1em; /* Adjusted padding for smaller screens */
         font-size: 1em; /* Adjusted for better readability */
+    }
+
+    .project-card img {
+        max-width: 100%; /* Ensure image scales within its container */
     }
 }
 
