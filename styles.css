@@ -138,44 +138,5 @@ h2 {
     background: #555;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    #projects, #about, #contact {
-        padding: 1em;
-    }
 
-    #navbar ul {
-        flex-direction: column; /* Changed to column for better stacking */
-        align-items: center; /* Centered items */
-    }
-
-    #navbar ul li {
-        margin: 0.5em 0; /* Adjusted margin for better spacing */
-    }
-
-    h1 {
-        font-size: 2em; /* Adjusted for better readability */
-    }
-
-    p {
-        font-size: 1em; /* Adjusted for better readability */
-    }
-
-    h2 {
-        font-size: 2em; /* Adjusted for better readability */
-    }
-
-    .avatar {
-        width: 200px; /* Adjusted for smaller screens */
-    }
-
-    #about ul {
-        padding: 0 1em; /* Adjusted padding for smaller screens */
-        font-size: 1em; /* Adjusted for better readability */
-    }
-
-    .project-card img {
-        max-width: 100%; /* Ensure image scales within its container */
-    }
-}
 
